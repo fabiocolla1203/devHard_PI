@@ -196,3 +196,121 @@ input[type="number"] {
 
 
 /* ACIMA // LAYOUT PAGE >> LOGIN CADASTRO*/
+
+main {
+    height: 1200px;
+}
+#top img {
+    margin-left: 610px;
+    width: 150px;
+    height: 150px;
+} 
+#top h2 {
+    color: #E74C3C;
+    text-align: center;
+    font-size: 50px;
+}
+
+.produtos {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.produtos img {
+    width: 150px;
+    height: 170px;
+}
+
+.produto {
+    margin-top: 60px;
+    margin-left: 60px;
+    border: solid 1px red;
+    background-color: #E74C3C;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 8px;
+    height: 250px;
+}
+
+.produto p {
+    margin-top: 8px;
+}
+
+.footer1 {
+    background-color: #E74C3C;
+    max-width: 1200px;
+    border-radius: 35px;
+    margin-left: 80px;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    text-decoration: none;
+}
+
+.texto  {
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: white;
+}
+
+.texto p {
+    font-size: 10px;
+}
+
+.footer1 input{
+    margin: 10px;
+    margin-right: 50px;
+    width: 250px;
+    padding: 4px;
+    border-radius: 30px;
+    border: none;
+}
+
+.footer1 button {
+    margin: 10px;
+    width: 80px;
+    padding: 4px;
+    border: none;
+    border-radius: 30px;
+    background-color: #3498DB;
+    color: white;
+    font-weight: bold;
+}
+
+.footer nav {
+    color: #E74C3C;
+    margin-top: 10px;
+    margin-left: 80px;
+    padding: 20px;
+    text-align: center ;
+    display: flex;
+    flex-direction: row;
+}
+.footer nav li {
+    margin-left: 80px;
+    list-style-type: none;
+}
+
+.footer nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer nav li a:hover {
+    text-decoration: underline;
+}
